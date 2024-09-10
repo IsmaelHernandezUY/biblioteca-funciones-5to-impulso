@@ -33,7 +33,7 @@ public class App {
 
     // Mínimo de dos números
     public static int min(int a, int b) {
-        return 3;
+        return a<b;
     }
 
     // Factorial de un número
