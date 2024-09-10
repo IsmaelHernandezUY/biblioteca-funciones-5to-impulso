@@ -28,7 +28,7 @@ public class App {
 
     // Máximo de dos números
     public static int max(int a, int b) {
-        return 5;
+        return a>b;
     }
 
     // Mínimo de dos números
