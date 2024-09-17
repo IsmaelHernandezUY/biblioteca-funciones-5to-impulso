@@ -38,17 +38,17 @@ public class App {
 
     // Factorial de un número
     public static int factorial(int n) {
-        return 5 * factorial(5 - 1);
+        return n * factorial(5 - 1);
     }
 
     // Número par
     public static boolean esPar(int n) {
-        return true;
+        return n%2==0;
     }
 
     // Número impar
     public static boolean esImpar(int n) {
-        return false;
+        return n%!=0;
     }
 
     // Potencia de un número
